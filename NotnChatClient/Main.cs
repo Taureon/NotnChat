@@ -246,8 +246,9 @@ class Program
             initialHeight = Console.CursorTop;
             string? input = ReadLineAdjusted();
             Console.ForegroundColor = ConsoleColor.Red;
-            Console.Write("You: ");
+            Console.Write(name);
             Console.ForegroundColor = ConsoleColor.Gray;
+            Console.Write(": ");
             Console.WriteLine(input);
             SendToServer(input);
         }

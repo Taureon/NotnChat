@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotnChatServer", "NotnChatServer\NotnChatServer.csproj", "{38ACB342-6147-446F-A3C4-7FE165E53E37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotnChatClient", "NotnChatClient\NotnChatClient.csproj", "{87825D50-354E-40AF-9B2F-68AAB6A33FB7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38ACB342-6147-446F-A3C4-7FE165E53E37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38ACB342-6147-446F-A3C4-7FE165E53E37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38ACB342-6147-446F-A3C4-7FE165E53E37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38ACB342-6147-446F-A3C4-7FE165E53E37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87825D50-354E-40AF-9B2F-68AAB6A33FB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87825D50-354E-40AF-9B2F-68AAB6A33FB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87825D50-354E-40AF-9B2F-68AAB6A33FB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87825D50-354E-40AF-9B2F-68AAB6A33FB7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {21014525-29A3-4385-91E9-34DFEAAC97AB}
+	EndGlobalSection
+EndGlobal
